@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(170, 136, 136);
+    text-align: center;
+}
+.button-grid{
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 500px;
+    margin-left: 70px;
+}
+.button-grid :hover{
+    color: purple;
+}
+.button-grid :active{
+    color: aqua;
+}
