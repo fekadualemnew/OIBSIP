@@ -1,0 +1,117 @@
+body {
+    background-color: #fdfdf7;
+    color: #2c3e50;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+#header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    color: #1a252c;
+}
+
+#header p {
+    color: #b8860b;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#img-div {
+    background-color: #f5f2eb;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+#img-caption{
+    font-size: 0.9rem;
+    color: #566573;
+    font-style: italic;
+    margin-top: 120px;
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: #1a252c;
+    border-bottom: 2px solid #eae5da;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+p{
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+blockquote{
+    background-color: #fdfdf7;
+    border-left: 4px solid #b8860b;
+    padding: 24px 30px;
+    margin: 40px 0;
+}
+
+blockquote p{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    font-style: italic;
+    color: #1a252c;
+    margin-bottom: 0;
+}
+cite{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: #b8860b;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+#tribute-info ol{
+    padding-left: 20px;
+}
+
+li{
+   margin-bottom: 18px; 
+   font-size: 1rem;
+}
+
+#tribute-info strong{
+    color: #b8860b;
+    font-size: 1.1rem;
+    margin-right: 6px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    border-top: 3px solid #eae5da;
+}
+#tribute-link{
+    color: #b8860b;
+    text-decoration: none;
+    border-bottom: 1px dashed #b8860b;
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+#tribute-link:hover{
+    color: #1a252c;
+    border-bottom-style: solid;
+}
